@@ -1,0 +1,1211 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Heebo');
+
+
+body {
+    direction: rtl;
+    font-family: 'Heebo', sans-serif;
+}
+
+#container {
+    margin: 0 auto;
+    height: 30px;
+    position: relative;
+    z-index: 0;
+}
+/*נגישות*/
+.accessibility {
+    position: absolute;
+}
+
+#skip {
+    position: absolute;
+    left: 300px;
+    top: 0;
+    text-align: center;
+    list-style: outside none;
+    z-index: -3;
+    
+}
+
+    #skip li {
+        list-style-type: none;
+    }
+
+    #skip a {
+        position: absolute;
+        color: white;
+        text-decoration: none;
+        top: 30px;
+    }
+
+        #skip a:focus, #skip a:active {
+            position: relative;
+            left: 0;
+            z-index: 9999;
+            width: 75%;
+            height: auto;
+            margin: 0 auto;
+            padding: 30px 45px;
+            text-align: center;
+            text-decoration: none;
+            letter-spacing: -4px !important;
+            font: bold 50px "Arial", "Freesans", sans-serif !important;
+            color: #AEAEFE;
+            background: transparent url(transparent.png) repeat scroll 0 0;
+            border: 1px dotted #ffb4db;
+        }
+
+.notActive {
+    cursor: not-allowed;
+}
+
+/*ניווט ולוגו*/
+
+#logoplace {
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+#logo {
+    width: 350px;
+    position: relative;
+}
+
+#likehr {
+    background-color: lightgray;
+    width: 99.9%;
+    height: 1px;
+    position: relative;
+    z-index: 4;
+    bottom: 10px;
+}
+
+
+#nav1 {
+    position: relative;
+    border-bottom: solid 1px lightgray;
+    padding-bottom: 10px;
+    background-color: white;
+    width: 100%;
+    height: 34px;
+    text-align: center;
+    position: relative;
+    z-index: 2;
+}
+
+.arrow {
+    position: relative;
+    width: 20px;
+    right: 20px;
+    top: 2px;
+}
+
+#nav1 ul {
+    padding: 0;
+    list-style: none;
+    margin: 0px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: central;
+    position: relative;
+    bottom: 10px;
+}
+
+#nav1 > ul > li {
+    float: right;
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 54px;
+    transition: 0.5s ease;
+    background-color: white;
+    vertical-align: bottom;
+}
+
+    #nav1 > ul > li > a {
+        font-size: 18pt;
+        position: relative;
+        top: 10px;
+    }
+
+#nav1 ul ul {
+    transition: 1s ease;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+}
+
+#nav1 ul li ul li {
+    float: right;
+    position: relative;
+    display: inline-block;
+    height: 25px;
+    padding: 7px 0px;
+    width: 200px;
+    transition: 0.5s ease;
+    background-color: white;
+}
+
+#nav1 > ul > li > ul > li > a {
+    position: relative;
+    top: 1px;
+}
+
+#nav1 > ul > li > ul > li > ul > li {
+    padding: 7px 0px 7px 0px;
+    text-align: right;
+    width: 270px;
+}
+
+    #nav1 > ul > li > ul > li > ul > li > a {
+        display: block;
+        width: 265px;
+        padding-top:12px;
+        padding-bottom: 10px;
+        padding-right:5px;
+        position:relative;
+        top: -11px;
+        
+    }
+
+    .myBold
+    {
+        font-weight:600;
+    }
+#nav1 ul ul ul {
+    top: 0px;
+    right: 100%;
+}
+
+
+
+#nav1 li:hover > ul,
+#nav1 li:focus > ul,
+#nav1 li:focus-within > ul {
+    display: block;
+}
+
+#nav1 ul li {
+    background-color: white;
+}
+
+    #nav1 ul li a {
+        color: black;
+        text-decoration: none;
+    }
+
+    #nav1 ul li:hover,
+    #nav1 ul li:focus,
+    #nav1 ul li:focus-within {
+        background-color: #bbbbbb;
+        transition: 0.5s ease;
+    }
+
+/*תמונה גדולה והכיתוב*/
+#bigimage {
+    width: 100%;
+    height: 505px;
+    position: relative;
+    margin: 0 auto;
+    z-index: -1;
+    background-image: url(../images/banjo.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+    #bigimage h2 {
+        color: white;
+        position: relative;
+        top: 150px;
+        right: 160px;
+        font-size: 39pt;
+        width: 800px;
+        font-weight: 550;
+        line-height: 1.2;
+        letter-spacing: 1px;
+        
+    }
+
+/*פסטיבלים קיצוניים*/
+#radicals {
+    width: 960px;
+    color: black;
+    height: 700px;
+    position: relative;
+    text-align: center;
+    margin: 0 auto;
+    top: 50px;
+    margin-bottom: 50px;
+    bottom: 40px;
+}
+
+    #radicals h2 {
+        font-size: 30pt;
+    }
+
+    #radicals p {
+        position: relative;
+        top: 20px;
+    }
+
+    #radicals span {
+        font-size: 12pt;
+    }
+
+    #radicals > h1 {
+        font-size: 24pt;
+    }
+
+
+#firstrow {
+    position: relative;
+    top: 40px;
+    width: 100%;
+    height: 400px;
+}
+
+#onefest {
+    height: 300px;
+    width: 33%;
+    display: inline-block;
+    float: right;
+}
+
+#lighthead {
+    color: #03930f;
+    font-size: 20pt;
+    font-weight: 400;
+    margin-bottom: 30px
+}
+
+#lightpic {
+    position: relative;
+    background-image: url(../images/fireworks.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 267px;
+    height: 200px;
+    right: 7%;
+    display: block;
+    bottom: 15px;
+}
+
+#lightoverlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #f1f1f1;
+    height: 80px;
+    width: 227px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    float: right;
+}
+
+
+
+#onefest a:hover #lightoverlay,
+#onefest a:focus #lightoverlay,
+#onefest a:focus-within #lightoverlay {
+    opacity: 1;
+}
+
+
+
+#twofest {
+    height: 300px;
+    width: 33%;
+    display: inline-block;
+    float: right;
+}
+
+#freehead {
+    color: #ed4800;
+    font-size: 20pt;
+    font-weight: 400;
+    margin-bottom: 30px
+}
+
+#freepic {
+    position: relative;
+    background-image: url(../images/india.jpeg);
+    background-size: 113%;
+    background-repeat: no-repeat;
+    width: 267px;
+    height: 200px;
+    right: 7%;
+    bottom: 15px;
+}
+
+#freeoverlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #f1f1f1;
+    height: 80px;
+    width: 227px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    float: right;
+}
+
+#twofest a:hover #freeoverlay,
+#twofest a:focus #freeoverlay,
+#twofest a:focus-within #freeoverlay {
+    opacity: 1;
+}
+
+#threefest {
+    height: 300px;
+    width: 33%;
+    display: inline-block;
+    float: right;
+}
+
+#furyhead {
+    color: #005a8e;
+    font-size: 20pt;
+    font-weight: 400;
+    margin-bottom: 30px
+}
+
+#furypic {
+    position: relative;
+    background-image: url(../images/dog.jpg);
+    background-size: 113%;
+    background-position-x: -20px;
+    background-repeat: no-repeat;
+    width: 267px;
+    height: 200px;
+    right: 7%;
+    bottom: 15px;
+}
+
+#furyoverlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #f1f1f1;
+    height: 80px;
+    width: 227px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    float: right;
+}
+
+#threefest a:hover #furyoverlay,
+#threefest a:focus #furyoverlay,
+#threefest a:focus-within #furyoverlay {
+    opacity: 1;
+}
+
+
+#secondrow {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    bottom: 20px;
+}
+
+#fourfest {
+    height: 300px;
+    width: 33%;
+    display: inline-block;
+    float: right;
+}
+
+#underwaterhead {
+    color: #011889;
+    font-size: 20pt;
+    font-weight: 400;
+    position: relative;
+    bottom: 50px;
+}
+
+#underwaterpic {
+    position: relative;
+    background-image: url(../images/underwater.jpeg);
+    background-size: 113%;
+    background-repeat: no-repeat;
+    width: 267px;
+    height: 200px;
+    right: 7%;
+    bottom: 35px;
+}
+
+#underwateroverlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #f1f1f1;
+    height: 80px;
+    width: 227px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    float: right;
+}
+
+#fourfest a:hover #underwateroverlay,
+#fourfest a:focus #underwateroverlay,
+#fourfest a:focus, within #underwateroverlay {
+    opacity: 1;
+}
+
+
+#fivefest {
+    height: 300px;
+    width: 33%;
+    display: inline-block;
+    float: right;
+}
+
+#pridehead {
+    color: #9f01a5;
+    font-size: 20pt;
+    font-weight: 400;
+    position: relative;
+    bottom: 50px
+}
+
+#pridepic {
+    position: relative;
+    background-image: url(../images/gay.jpg);
+    background-size: 113%;
+    background-repeat: no-repeat;
+    width: 267px;
+    height: 200px;
+    right: 7%;
+    bottom: 35px;
+}
+
+#prideoverlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #f1f1f1;
+    height: 80px;
+    width: 227px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    float: right;
+}
+
+#fivefest a:hover #prideoverlay,
+#fivefest a:focus #prideoverla,
+#fivefest a:focus-within #prideoverlay {
+    opacity: 1;
+}
+
+
+#sixfest {
+    height: 300px;
+    width: 33%;
+    display: inline-block;
+    float: right;
+}
+
+#dirtyhead {
+    color: #b10000;
+    font-size: 20pt;
+    font-weight: 400;
+    position: relative;
+    bottom: 50px
+}
+
+#dirtypic {
+    position: relative;
+    background-image: url(../images/mud.jpg);
+    background-size: 140%;
+    background-position-y: -10px;
+    background-repeat: no-repeat;
+    width: 267px;
+    height: 200px;
+    right: 7%;
+    bottom: 35px;
+}
+
+#dirtyoverlay {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.9);
+    color: #f1f1f1;
+    height: 80px;
+    width: 227px;
+    transition: .5s ease;
+    opacity: 0;
+    color: white;
+    font-size: 20px;
+    padding: 0px 20px 0px 20px;
+    text-align: center;
+    float: right;
+}
+
+#sixfest a:hover #dirtyoverlay,
+#sixfest a:focus #dirtyoverlay,
+#sixfest a:focus-within #dirtyoverlay {
+    opacity: 1;
+}
+
+/*פסטיבל בהפתעה*/
+
+#surprise {
+    width: 100%;
+    margin: 0 auto;
+    background-color: #f3b652;
+    height: 300px;
+    position: relative;
+}
+
+#surprisetxt {
+    position: relative;
+    width: 960px;
+    height: 300px;
+    text-align: center;
+    margin: 0 auto;
+    top: 5px;
+}
+
+#gift {
+    width: 100px;
+    height: 100px;
+    background-image: url(../images/present.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    top: 20px;
+    margin: 0 auto;
+}
+
+#surprisetxt h2 {
+    position: relative;
+    font-size: 24pt;
+    top: 5px;
+}
+
+#surprisetxt p {
+    position: relative;
+    font-size: 20pt;
+    font-weight: 400;
+    top: 25px;
+}
+
+#surprisebtn {
+    margin: 0 auto;
+    width: 150px;
+    height: 45px;
+    font-family: 'Heebo', sans-serif;
+    font-size: 15pt;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    top: 45px;
+    transition: 0.3s ease;
+    background-color: #fad18f;
+}
+
+    #surprisebtn:hover {
+        background-color: rgba(255, 255, 255, 0.80);
+        transition: 0.3s ease;
+    }
+
+footer {
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    position: relative;
+    top: 1px;
+    height: 0;
+}
+
+.footerdog a{
+    position: static;
+    color: purple;
+    text-decoration: underline;
+    font-size: 10pt;
+}
+
+.footerdog{
+    position: relative;
+    bottom: -27px;
+}
+
+    footer nav {
+        margin: 0 auto;
+    }
+
+    footer a {
+        position: relative;
+        top: 12px;
+        color: black;
+        text-decoration: none;
+        font-size: 14pt;
+    }
+
+    footer span {
+        margin: 80px;
+    }
+
+#footerhr1 {
+    position: relative;
+    width: 100%
+}
+
+#footerhr {
+    position: relative;
+    top: 24px;
+}
+
+#footer1 {
+    bottom: 100px;
+}
+
+#footer2 {
+    margin-top: -18px;
+}
+/*עמוד אודות*/
+
+#containerutilities {
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom:-23px;
+    background-color: #f3b652;
+    position: relative;
+    bottom: 19px;
+}
+
+.bio {
+    width:960px;
+    margin: 0 auto;
+}
+
+    #containerutilities h2, #containersitemap h2 {
+        font-size: 30pt;
+    }
+
+
+
+#hitlogo {
+    position:relative;
+    top:50px;
+    width: 300px;
+    height:300px;
+    background-size:100%;
+    margin: 0 auto;
+    background-image: url(../images/HITlogo.png);
+    background-repeat: no-repeat;
+}
+
+
+#ourpics {
+    width: 960px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    padding-top: 25px;
+}
+
+.pics {
+    position: relative;
+    left: 70px;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-repeat: no-repeat;
+}
+
+#names p {
+    display: inline-block;
+    position: relative;
+    left: 75px;
+    padding-top: 7px;
+}
+
+#midname {
+    margin-right: 175px;
+    margin-left: 175px;
+}
+
+
+#heelapic {
+    background-image: url(../images/heela.jpg);
+    background-size: 100%;
+}
+
+#solpic {
+    background-image: url(../images/sol.jpeg);
+    background-size: 130%;
+    background-position-x: -50px;
+}
+
+#evyatarpic {
+    background-image: url(../images/evyatar.jpg);
+    background-size: 100%;
+}
+
+#containerutilities p {
+    margin-bottom: 20px;
+}
+
+#pcourses {
+padding-top: 80px;
+}
+
+#containerutilities h3 {
+    font-size: 20pt;
+}
+
+.courses {
+    position: relative;
+    top: 20px;
+}
+
+#containerutilities li
+{
+    margin-right:25px;
+    margin-top:10px;
+}
+
+#containerutilities a {
+    top: 20px;
+    margin-bottom: 5px;
+}
+
+#footer2 {
+    position: relative;
+    
+}
+
+
+/*עמוד צור קשר*/
+
+#contact {
+    padding-bottom: 60px; 
+}
+
+#contact h2
+{
+    padding-bottom: 20px;
+    padding-top: 60px;
+}
+
+#contact label {
+    font-size: 14pt;
+}
+
+#contact label input{
+    width: 200px;
+    height: 30px;
+    font-size: 14pt;
+    border-radius: 5px;
+    border: gray 3px;
+}
+
+#mysay
+{
+    position:relative;
+    top: 90px;
+    margin-left:20px;
+    width: 400px;
+    height: 100px;
+    border-radius: 5px;
+    font-size: 14pt;
+    border: gray 3px;
+    margin-top: 5px;
+    display: inline-block;
+}
+
+#mysaylabel {
+
+    position: relative;
+    top: -75px;
+}
+
+.submitbtn {
+    margin-top: 30px;
+    width: 100px;
+    font-size: 14pt;
+}
+
+
+#mymail {
+    margin-top: 15px;
+    margin-right: 45px;
+}
+#mytxt {
+    margin-right: 25px;
+}
+
+#contact input{
+    margin-left:20px;
+}
+
+footer3{
+    position:relative;
+    bottom:-30px;
+}
+
+/*עמוד צור קשר*/
+
+.part {
+    float: right;
+    display: inline-block;
+    margin: 20px;
+    width: 262px;
+   
+}
+
+.linkim {
+    display: block;
+    cursor: not-allowed;
+    color: #4e4c54;
+    text-align: center;
+}
+
+.bigpart {
+    float: right;
+    display: block;
+    margin: 15px;
+    width: 960px;
+    margin-top: 40px;
+}
+
+
+    .bigpart h3 {
+        
+        display: block;
+        font-size: 30pt;
+       
+    }
+
+.Active {
+    color: purple;
+    cursor: pointer;
+}
+
+.part li {
+    list-style: none;
+}
+#sitemapnav{
+    margin:0 auto;
+}
+#sitemapnav li {
+    list-style: none;
+}
+
+#sitemapnav h4 {
+text-align: center;
+font-size: 18pt;
+}
+
+#morepages {
+    margin: 50px;
+    display: block;
+    float: right;
+}
+
+#containersitemap {
+    width: 100%;
+    margin: 0 auto;
+    height: 2300px;
+    background-color: #f3b652;
+}
+
+#containerutilities1 {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#morepages h3 {
+    margin-right: 0px;
+}
+
+
+/*הילה הוסיפה*/
+
+#contentpic1 {
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+#contentpic2, #contentpic3, #contentpic4, #contentpic5 {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+#contentcontainer {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#contenth2 {
+    font-size: 30pt;
+    padding-top: 40px;
+}
+
+#shortsen {
+    font-size: 20pt;
+    font-weight:normal;
+    padding-top: 7px;
+
+}
+
+#iconCountry {
+    display: inline-block;
+    background: url(../images/globe.png) no-repeat;
+    background-size: 100%;
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+
+#iconCategory{
+    background: url(../images/music.png) no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    float: left;
+}
+
+#iconCategory1 {
+    background: url(../images/doggies/paw.jpg) no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    float: left;
+
+}
+
+#iconCategory3 {
+    background: url(../images/heart.jpg) no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    float: left;
+
+}
+
+#iconDate {
+    display: inline-block;
+    float: left;
+    background: url(../images/calendar.png) no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 80px;
+}
+
+#iconCategory2 {
+    display: inline-block;
+    float: left;
+    background: url(../images/om.jpg) no-repeat;
+    background-size: 100%;
+    width: 80px;
+    height: 80px;
+}
+    
+.iconsspan1,.iconsspan3,.iconsspan4, .iconsspan5, .iconsspan6, .iconsspan7, .iconsspan8, .iconsspan9, .iconsspan10 {
+margin-right: 20px;
+position: relative;
+top: 60px;
+}
+
+.iconsspan2 {
+margin-right: 17px;
+position: relative;
+top: 60px;
+}
+
+.iconsspan5 {
+    margin-right: 28px;
+}
+
+.iconsspan6 {
+    margin-right: 12px;
+}
+
+.iconsspan7 {
+    margin-right: 11px;
+}
+
+.iconsspan4 {
+    margin-right: 30px;
+}
+
+.iconsspan8 {
+    margin-right: 25px;
+}
+
+.iconsspan9 {
+    margin-right: 9px;
+}
+
+.iconsspan10 {
+    margin-right: 16px;
+}
+
+#allicons {
+    margin-top: -70px;
+    margin-bottom: 120px;
+}
+
+#firsthr {
+    width: 960px;
+}
+
+#contenth3 {
+    font-size: 18pt;
+    padding-bottom: 10px;
+}
+
+#contentsection p, li, #mytip p, #mytip1 p, #containerutilities p, #containerutilities1 p{
+    font-size: 14pt;
+    line-height: 1.5;
+}
+
+#contentsection li {
+    margin-right: 30px;
+}
+
+#mytip {
+margin-top: 30px;
+background-color: #f3b652;
+height: 80px;
+width: 930px;
+border-radius: 10px;
+padding: 20px 0px;
+padding-right: 30px;
+}
+
+#mytip1 {
+margin-top: 30px;
+background-color: #f3b652;
+height: 110px;
+width: 930px;
+border-radius: 10px;
+padding: 20px 0px;
+padding-right: 30px;
+}
+
+
+#bulbpic {
+    background: url(../images/bulb.png) no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin-top: -15px;
+}
+
+#bulbpic1 {
+    background: url(../images/bulb.png) no-repeat;
+    background-size: 100%;
+    width: 150px;
+    height: 150px;
+    float: left;
+}
+
+#credit {
+    text-align: center;
+    font-size: 12px;
+    margin-top:-10px;
+}
+#credit a, #credit1 a{
+    text-decoration: none;
+}
+
+#credit1 {
+    position: relative;
+    font-size: 10pt;
+}
+
+#contentcontainer img {
+padding-top: 15px;
+padding-bottom: 15px;
+}
+
+#sitemaph3 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+#websitehr {
+    border-top: 0.10px solid rgb(92, 92, 92);
+
+}
+
+#conceptdiv, #datediv, #placediv, #divgeneral {
+    background-color: rgba(255, 255, 255, 0.605);
+    border-radius: 15px;
+    height: 550px;
+    padding-top: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#divgeneral1 {
+    background-color: rgba(255, 255, 255, 0.605);
+    border-radius: 15px;
+    height: 230px;
+    padding-top: 25px;
+    margin: 0 auto;
+    margin-top: -30px;
+    margin-bottom: 60px;
+}
+
+#conceptdiv {
+    margin-bottom: 80px;
+}
+
+#sitemaph2 {
+    padding-top: 50px;
+    margin-bottom: -10px;
+}
+
+#abouth2 {
+    padding-top: 60px;
+}
+
+#firstaboutp {
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+#aboutarticle {
+    padding: 0px 20px;
+
+}
+
+#courselist {
+    margin-top: -22px;
+    margin-bottom: 60px;
+}

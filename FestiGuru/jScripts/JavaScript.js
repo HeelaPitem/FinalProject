@@ -3,7 +3,7 @@
 function randompage() {
     var randIdx = Math.random() * links.length;
     randIdx = parseInt(randIdx, 10);
-    var link = 'http://' + links[randIdx];
+    var link = links[randIdx];
     window.open(link, "_self");
 }
 

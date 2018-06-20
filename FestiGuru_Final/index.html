@@ -1,0 +1,471 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>דף הבית | פסטיגורו</title>
+    <meta name="description" content="כאן תוכלו לגלות עולם שלם של פסטיבלים שלא הכרתם. תוכלו לחפש את הפסטיבל הבא שלכם באמצעות חיפוש לפי תאריך, חודש או קטגוריה." />
+    <meta name="keywords" content="פסטיגורו, פסטיבלים, פסטיבלים מיוחדים, פסטיבלים יחודיים, פסטיבלים לא מוכרים, פסטיבלים בעולם, מסביב לעולם" />
+    <meta name="author" content="הילה פיטם, סול מיכאלי, אביתר כהן" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+    <link rel="icon" href="images/favicon.png">
+    <!-- CSS -->
+
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="jScripts/JavaScript.js"></script>
+</head>
+<body onload="tab_nav()">
+    <div id="container">
+        <header>
+              <div id="logoplace"><h1><a href="index.html"><img id="logo" src="images/logo.png"></a></h1></div>
+            <ul id="skip">
+                <li><a href="#content-anchor">דלג לתוכן</a></li>
+            </ul>
+            <div id="likehr"></div>
+            <nav id="nav1" role="navigation">
+                <ul>
+                    <li>
+                        <a href='#'>תאריך<img alt="" class="arrow" src="images/down.png" /></a>
+                        <ul>
+                            <li>
+                                <a href="#">ינואר-פברואר</a>
+                                <ul>
+                                    <li><a href="mardiGrasFestival.html">מארדי גרא</a></li>
+                                    <li><a class="notActive" href="#">קרב התפוזים</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל הפאסנאכט</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל העפיפונים</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">מרץ-אפריל</a>
+                                <ul>
+                                    <li><a class="notActive" href="#">יום האיש הקפוא המת</a></li>
+                                    <li><a class="notActive" href="#">זיקוקי גנושי</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל ההולי</a></li>
+                                    <li><a class="notActive" href="#">מלחמת המים</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">מאי-יוני</a>
+                                <ul>
+                                    <li><a href="hemisFestival.html">פסטיבל המיס</a></li>
+                                    <li><a href="underwaterMusicFestival.html">פסטיבל המוזיקה מתחת למים</a></li>
+                                    <li><a class="notActive" href="#"> הגבינה המתגלגלת</a></li>
+                                    <li><a class="notActive" href="#"> פסטיבל העששיות הצפות</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">יולי-אוגוסט</a>
+                                <ul>
+                                    <li><a href="goldenRetrieverFestival.html">פסטיבל הגולדן-רטריבר</a></li>
+                                    <li><a class="notActive" href="#"> אליפות גיטרת האוויר</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל העגבניות</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל הקולנוע הבינ”ל</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">ספטמבר-אוקטובר</a>
+                                <ul>
+                                    <li><a class="notActive" href="#">פסטיבל מלחמת הבוץ</a></li>
+                                    <li><a class="notActive" href="#">לה דמנס</a></li>
+                                    <li><a class="notActive" href="#">מיסטורה</a></li>
+                                    <li><a class="notActive" href="#">סאלון דה צ'וקולט</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">נובמבר-דצמבר</a>
+                                <ul>
+                                    <li><a class="notActive" href="#">קראמפוסנאכט</a></li>
+                                    <li><a class="notActive" href="#">בופה הקופים</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל הזוחלים</a></li>
+                                    <li><a class="notActive" href="#">פאנקין צ'אנקין</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href='#'>יבשת <img alt="" class="arrow" src="images/down.png" /></a>
+                        <ul>
+                            <li>
+                                <a href='#'>אירופה</a>
+                                <ul>
+                                    <li>
+                                        <a href="goldenRetrieverFestival.html">
+                                            <span class="myBold">
+                                                סקוטלנד:
+                                            </span>
+                                            פסטיבל הגולדן-רטריבר
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                ספרד:
+                                            </span>
+                                            פסטיבל מלחמת הבוץ
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                גרמניה:
+                                            </span>
+                                            קראמפוסנאכט
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                אנגליה:
+                                            </span>
+                                            פסטיבל גבינה המתגלגלת
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">צפון אמריקה</a>
+                                <ul>
+                                    <li>
+                                        <a href="underwaterMusicFestival.html">
+                                            <span class="myBold">
+                                                פלורידה:
+                                            </span>
+                                            פסטיבל המוזיקה מתחת למים
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                הוואי:
+                                            </span>
+                                            פסטיבל העששיות הצפות
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                קולראדו:
+                                            </span>
+                                            יום האיש הקפוא המת
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                ג’ורג’יה:
+                                            </span>
+                                            משחקי הדרום
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">דרום אמריקה</a>
+                                <ul>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                ארגנטינה:
+                                            </span>
+                                            פסטיבל הטנגו
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                בוליביה:
+                                            </span>
+                                            בתולה של קנדלריה
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                פרו:
+                                            </span>
+                                            מיסטורה
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                אקוודור:
+                                            </span>
+                                            פס דל ניניו
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">אסיה</a>
+                                <ul>
+                                    <li>
+                                        <a href="hemisFestival.html">
+                                            <span class="myBold">
+                                                הודו:
+                                            </span>
+                                            פסטיבל המיס
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                סין:
+                                            </span>
+                                            פסטיבל השלג וקרח
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                תאילנד:
+                                            </span>
+                                            בופה הקופים
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                טאיוואן:
+                                            </span>
+                                            זיקוקי גנושי
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">אוסטרליה</a>
+                                <ul>
+                                    <li>
+                                        <a href="mardiGrasFestival.html">
+                                            <span class="myBold">
+                                                ניו סאות וואלס:
+                                            </span>
+                                            מארדי גרא
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                אליס ספרינגרס:
+                                            </span>
+                                            גביע הגמל
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                דרווין:
+                                            </span>
+                                            תחרות סירות הבירה
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                ניו סאות וואלס:
+                                            </span>
+                                            בלוזפסט
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">אפריקה</a>
+                                <ul>
+                                    <li class="lands">
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                דרום אפריקה:
+                                            </span>
+                                            אפריקה-ברן
+                                        </a>
+                                    </li>
+                                    <li class="lands">
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                זנזיבר:
+                                            </span>
+                                            פסטיבל הקולנוע הבינ"ל
+                                        </a>
+                                    </li>
+                                    <li class="lands">
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                מלאווי:
+                                            </span>
+                                            אגם הכוכבים
+                                        </a>
+                                    </li>
+                                    <li class="lands">
+                                        <a class="notActive" href="#">
+                                            <span class="myBold">
+                                                טוניסיה:
+                                            </span>
+                                            פסטיבל הסהרה
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href='#'>קונספט <img alt="" class="arrow" src="images/down.png" /></a>
+                        <ul>
+                            <li>
+                                <a href="#">אוכל ושתיה</a>
+                                <ul class="concepts">
+                                    <li><a class="notActive" href="#">קרב התפוזים</a></li>
+                                    <li><a class="notActive" href="#">מיסורה</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל העגבניות</a></li>
+                                    <li><a class="notActive" href="#">סאלון דו צ'וקולט</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">אומנות</a>
+                                <ul class="concepts">
+                                    <li><a class="notActive" href="#">פסטיבל הפאסנאכט</a></li>
+                                    <li><a class="notActive" href="#">זיקוקי גאנושי</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל העפיפונים</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל הקולנוע הבינ"ל</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">להט"ב</a>
+                                <ul class="concepts">
+                                    <li><a href="mardiGrasFestival.html">מארדי גרא</a></li>
+                                    <li><a class="notActive" href="#">לילה מיוחד אחד</a></li>
+                                    <li><a class="notActive" href="#">לה דמנס</a></li>
+                                    <li><a class="notActive" href="#">מצעד הקיץ הגאה</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">מוזיקה</a>
+                                <ul class="concepts">
+                                    <li><a href="underwaterMusicFestival.html">פסטיבל המוזיקה מתחת למים</a></li>
+                                    <li><a class="notActive" href="#">אפריקה-ברן</a></li>
+                                    <li><a class="notActive" href="#">אפילות גיטרת האוויר</a></li>
+                                    <li><a class="notActive" href="#">מסיבת הגן הסודי</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">רוח ונפש</a>
+                                <ul class="concepts">
+                                    <li><a href="hemisFestival.html">פסטיבל המיס</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל העששיות הצפות</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל מרתה הקדושה</a></li>
+                                    <li><a class="notActive" href="#">קראמפוסנאכט</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">בעלי חיים</a>
+                                <ul class="concepts">
+                                    <li><a href="goldenRetrieverFestival.html">פסטיבל הגולדן-רטריבר</a></li>
+                                    <li><a class="notActive" href="#">בופה הקופים</a></li>
+                                    <li><a class="notActive" href="#">פילי סורין</a></li>
+                                    <li><a class="notActive" href="#">פסטיבל הזוחלים</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div id="bigimage"><h2>כאן תגלו עולם שלם של<br /> פסטיבלים שלא הכרתם</h2></div>
+        </header> 
+        <section id="radicals">
+            <a name="content-anchor" class="accessibility"></a>
+            <h2>הפסטיבלים הכי מיוחדים שמצאנו</h2>
+            <div id="firstrow">
+                <section>
+                    <div id="onefest">
+                        <h3 id="lighthead">הכי מואר</h3>
+
+                        <a class="notActive" href="#">
+                            <div id="lightpic">
+                                <div id="lightoverlay"><p>זיקוקי גונאשי<br /><span>טאיוואן, מרץ</span></p></div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section>
+                    <div id="twofest">
+                        <h3 id="freehead">הכי אופטימי</h3>
+                        <a href="hemisFestival.html">
+                            <div id="freepic">
+                                <div id="freeoverlay"><p>פסטיבל המיס<br /><span>הודו, יוני</span></p></div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section>
+                    <div id="threefest">
+                        <h3 id="furyhead">הכי פרוותי</h3>
+                        <a href="goldenRetrieverFestival.html">
+                            <div id="furypic">
+                                <div id="furyoverlay"><p>פסטיבל הגולדן רטריבר<br /><span>סקוטלנד, יולי</span></p></div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+            <div id="secondrow">
+                <section>
+                    <div id="fourfest">
+                        <h3 id="underwaterhead">הכי עמוק</h3>
+                        <a href="underwaterMusicFestival.html">
+                            <div id="underwaterpic">
+                                <div id="underwateroverlay"><p>מוזיקה מתחת למים<br /><span>פלורידה, יוני</span></p></div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section>
+                    <div id="fivefest">
+                        <h3 id="pridehead">הכי צבעוני</h3>
+                        <a href="mardiGrasFestival.html">
+                            <div id="pridepic">
+                                <div id="prideoverlay"><p>פסטיבל המארדי-גרא<br /><span>אוסטרליה, פברואר</span></p></div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+                <section>
+                    <div id="sixfest">
+                        <h3 id="dirtyhead">הכי מלוכלך</h3>
+                        <a class="notActive" href="#">
+                            <div id="dirtypic">
+                                <div id="dirtyoverlay"><p>מלחמת הבוץ<br /><span>ספרד, ספטמבר</span></p></div>
+                            </div>
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+        <div id="surprise">
+            <div id="surprisetxt">
+                <section>
+                    <div id="gift"></div>
+                    <h2>אוהבים להיות מופתעים?!</h2>
+                    <p>תנו לנו להפתיע אתכם עם פסטיבל אחד מתוך המאגר הענק שלנו!</p>
+                    <input id="surprisebtn" type="button" value="תפתיעו אותי" onclick="randompage()" />
+                </section>
+            </div>
+        </div>
+        <footer id="footer1">
+            <hr id="footerhr1" />
+            <nav role="navigation">
+                <a href="siteMap.html">מפת האתר</a>
+                <span><a href="about.html">אודות</a></span>
+                <a href="contactUs.html">צור קשר</a>
+            </nav>
+            <hr id="footerhr" />
+        </footer>
+    </div>
+
+</body>
+</html>

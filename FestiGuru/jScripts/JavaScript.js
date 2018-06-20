@@ -1,9 +1,9 @@
-﻿var links = new Array("https://heelapitem.github.io/FinalProject/FestiGuru/hemisFestival.html","https://heelapitem.github.io/FinalProject/FestiGuru/underwaterMusicFestival.html","https://heelapitem.github.io/FinalProject/FestiGuru/mardiGrasFestival.html","https://heelapitem.github.io/FinalProject/FestiGuru/goldenRetrieverFestival.html");
+﻿var links = new Array("heelapitem.github.io/FinalProject/FestiGuru/hemisFestival.html","heelapitem.github.io/FinalProject/FestiGuru/underwaterMusicFestival.html","heelapitem.github.io/FinalProject/FestiGuru/mardiGrasFestival.html","heelapitem.github.io/FinalProject/FestiGuru/goldenRetrieverFestival.html");
 
 function randompage() {
     var randIdx = Math.random() * links.length;
     randIdx = parseInt(randIdx, 10);
-    var link = links[randIdx];
+    var link = 'http://' + links[randIdx];
     window.open(link, "_self");
 }
 

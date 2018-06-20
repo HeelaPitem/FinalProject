@@ -1,4 +1,4 @@
-﻿var links = new Array("mardiGrasFestival.html","goldenRetrieverFestival.html","hemisFestival.html","underwaterMusicFestival.html");
+﻿var links = new Array("https://heelapitem.github.io/FinalProject/FestiGuru/hemisFestival.html","https://heelapitem.github.io/FinalProject/FestiGuru/underwaterMusicFestival.html","https://heelapitem.github.io/FinalProject/FestiGuru/mardiGrasFestival.html","https://heelapitem.github.io/FinalProject/FestiGuru/goldenRetrieverFestival.html");
 
 function randompage() {
     var randIdx = Math.random() * links.length;
